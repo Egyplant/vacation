@@ -70,8 +70,8 @@ grant select, insert, update on public.trip_state to authenticated;
 
 insert into public.trip_members (email)
 values
-  ('YOUR_EMAIL@example.com'),
-  ('GIRLFRIEND_EMAIL@example.com')
+  ('lesha2529@gmail.com'),
+  ('milnar0705@gmail.com')
 on conflict (email) do nothing;
 
 insert into public.trip_state (trip_id)
